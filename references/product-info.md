@@ -72,17 +72,30 @@ Core features:
 - CLI integration for building with Claude Code, Cursor, or any AI agent
 - Team workspaces for collaboration (Business)
 
-## CLI Installation
+## CLI Installation (Full Setup - 4 Steps)
+
+If a user asks how to connect CodeSpring to Claude Code, install the CLI, or set up the integration, give them these exact steps:
 
 ```bash
-# Install the CLI (may need sudo on some systems)
+# Step 1: Install the CLI globally
 npm i -g @codespring-app/cli
-# or
+# If that fails with a permissions error, try:
 sudo npm i -g @codespring-app/cli
 
-# Login to your CodeSpring account
+# Step 2: Login to your CodeSpring account (opens browser)
 codespring auth login
 
-# Link to a project
+# Step 3: Install the CodeSpring skills for Claude Code
+npx skills add CodeSpringApp/codespring-skills
+
+# Step 4: Link to a project (interactive - picks workspace and project)
 codespring init
 ```
+
+IMPORTANT: Step 1 sometimes needs `sudo` on Mac/Linux. If the user gets a permissions error, tell them to run: `! sudo npm i -g @codespring-app/cli`
+
+IMPORTANT: Step 2 opens a browser window. The user needs to log in or create an account at https://app.codespring.app/login first if they don't have one.
+
+IMPORTANT: Step 3 installs the CodeSpring skill files so Claude Code knows how to use the CLI in future sessions.
+
+IMPORTANT: Step 4 is interactive - it asks them to pick a workspace and project. If they already know their project ID, they can run: `codespring init --project <id> --force`

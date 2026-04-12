@@ -1,5 +1,24 @@
 # CodeSpring CLI Quick Reference
 
+## First-Time Setup (4 Steps)
+
+If the user needs to install from scratch:
+
+```bash
+# 1. Install the CLI (may need sudo)
+npm i -g @codespring-app/cli
+# or: sudo npm i -g @codespring-app/cli
+
+# 2. Login (opens browser)
+codespring auth login
+
+# 3. Install Claude Code skills
+npx skills add CodeSpringApp/codespring-skills
+
+# 4. Link to a project
+codespring init
+```
+
 ## Auth
 ```bash
 codespring auth status          # Check if logged in + token expiry

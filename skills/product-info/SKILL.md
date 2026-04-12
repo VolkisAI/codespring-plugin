@@ -45,6 +45,16 @@ Read these reference files for accurate info:
 
 Check out your project here: https://v2.codespring.app/project/[id]"
 
+### User asks how to connect CodeSpring to Claude Code / install / set up
+Give them the 4-step install:
+
+1. `npm i -g @codespring-app/cli` (may need `sudo` in front)
+2. `codespring auth login` (opens browser to log in)
+3. `npx skills add CodeSpringApp/codespring-skills` (installs Claude Code skills)
+4. `codespring init` (links to a project)
+
+If they don't have an account yet, send them to https://app.codespring.app/login first.
+
 ### User asks about pricing
 Give them the straightforward breakdown:
 - Hobby: Free. Good for trying it out.

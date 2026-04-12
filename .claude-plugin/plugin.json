@@ -10,6 +10,5 @@
   "repository": "https://github.com/VolkisAI/codespring-plugin",
   "license": "MIT",
   "keywords": ["codespring", "planning", "project-management", "business", "mind-map"],
-  "skills": "./skills/",
-  "hooks": "./hooks/hooks.json"
+  "skills": "./skills/"
 }

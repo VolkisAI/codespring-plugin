@@ -64,15 +64,32 @@ npm i -g @codespring-app/cli 2>&1 || sudo npm i -g @codespring-app/cli 2>&1
 If npm fails, try with sudo. If both fail, tell the user to run it manually:
 "I couldn't install automatically. Can you run this? `! sudo npm i -g @codespring-app/cli`"
 
-### If not authenticated:
-Check the expiry date in auth status. If expired or not authed, tell the user:
-"You need to log into your CodeSpring account. If you don't have one yet, it's free to sign up."
+### If not authenticated (authenticated: false):
+The user has never logged in. They probably don't have a CodeSpring account yet. Tell them:
 
-Then ask them to run: `! codespring auth login`
+"You'll need a CodeSpring account to save your projects. It's free to create one - takes 30 seconds.
 
-This opens their browser for OAuth. Wait for them to confirm it's done.
+1. Go to https://app.codespring.app/login and create your free account
+2. Once you've signed up, come back here and run: `! codespring auth login`
+3. That'll open your browser to connect your account
 
-If they don't have an account, direct them to: https://app.codespring.app/login
+Let me know once you're done and we'll get your project set up!"
+
+Wait for them to confirm before continuing.
+
+### If authenticated but expired (authenticated: true, expiresAt in the past):
+The user has an account but their session expired. Tell them:
+
+"Your CodeSpring session has expired. Quick fix - just run this:
+
+`! codespring auth login`
+
+It'll open your browser to sign back in. Let me know once that's done!"
+
+Wait for them to confirm before continuing.
+
+### If authenticated and valid (authenticated: true, expiresAt in the future):
+Good to go. Continue to the interview.
 
 ### If already has a project linked:
 Skip to the session memory briefing (see sync skill). Don't re-onboard someone who's already set up.

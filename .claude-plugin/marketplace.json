@@ -1,0 +1,22 @@
+{
+  "name": "codespring-plugins",
+  "owner": {
+    "name": "CodeSpring",
+    "email": "support@codespring.app",
+    "url": "https://codespring.app"
+  },
+  "metadata": {
+    "description": "CodeSpring plugins for Claude Code - plan, build, and track your app projects"
+  },
+  "plugins": [
+    {
+      "name": "codespring",
+      "source": "./",
+      "description": "Your AI business co-pilot. Interviews you about your business, plans your app, tracks progress, and makes Claude Code remember everything across sessions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "CodeSpring"
+      }
+    }
+  ]
+}

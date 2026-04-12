@@ -1,0 +1,15 @@
+{
+  "name": "codespring",
+  "version": "1.0.0",
+  "description": "Your AI business co-pilot. Interviews you about your business, plans your app, tracks progress, and makes Claude Code remember everything across sessions. Powered by CodeSpring.",
+  "author": {
+    "name": "CodeSpring",
+    "url": "https://codespring.app"
+  },
+  "homepage": "https://codespring.app",
+  "repository": "https://github.com/VolkisAI/codespring-plugin",
+  "license": "MIT",
+  "keywords": ["codespring", "planning", "project-management", "business", "mind-map"],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}

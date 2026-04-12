@@ -201,7 +201,23 @@ codespring features --json
 codespring mindmap note <featureId> --text "Implementation approach..."
 ```
 
-## Step 6: Offer the Boilerplate
+## Step 6: Show the Project URL (THE WOW MOMENT - DO THIS IMMEDIATELY)
+
+THIS IS THE MOST IMPORTANT STEP. Do NOT skip it. Do NOT ask about the boilerplate first. IMMEDIATELY after adding features and notes, show the user their project:
+
+Get the project ID from `.codespring/config.json` and show:
+
+"Your project is ready! Here's your visual app plan - every feature mapped out:
+
+https://v2.codespring.app/project/[project-id]
+
+Click that link and you'll see your entire app laid out as a mind map. [X] features planned, each with implementation notes. You can click around to explore how everything connects.
+
+Want me to also set up a starter codebase so you're not building from scratch?"
+
+The URL MUST be shown. This is the moment they see the value of CodeSpring. Without this link, the whole onboarding is wasted.
+
+## Step 7: Offer the Boilerplate
 
 Ask: "Want me to set up a starter project with a production-ready codebase? It's a Next.js app with auth, database, and payments already wired up."
 
@@ -263,18 +279,6 @@ When the user is planning or building features:
 
 Always use the CodeSpring CLI for project management. Run `codespring --help` for commands.
 ```
-
-## Step 8: The WOW Moment
-
-After everything is set up, show them their project:
-
-"Your project is set up! Check out your mind map - every feature laid out visually:
-
-https://v2.codespring.app/project/[project-id]
-
-You've got [X] features planned and [Y] tasks to work through. Want to start building the first one?"
-
-This is the most important moment. The link must work. The mind map must look good.
 
 ## Tone
 

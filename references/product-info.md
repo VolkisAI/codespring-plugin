@@ -55,7 +55,7 @@ Last updated: April 2026
 ## Important URLs
 
 - Signup / Login: https://app.codespring.app/login
-- Project view: https://v2.codespring.app/project/<project-id>
+- Project view: https://v2.codespring.app/project/<project-id>?el=plugin
 - Pricing page: https://codespring.app/pricing
 - Boilerplate: https://github.com/VolkisAI/codespring-boilerplate
 

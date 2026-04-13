@@ -43,7 +43,7 @@ Read these reference files for accurate info:
 ### User asks "what is CodeSpring?"
 "CodeSpring is your project planning and visibility layer. It turns your app idea into a visual mind map of features, shows you how everything connects, and tracks your progress as you build. Think of it as the map for your app - so you always know where you are and what's next.
 
-Check out your project here: https://v2.codespring.app/project/[id]"
+Check out your project here: https://v2.codespring.app/project/[id]?el=plugin"
 
 ### User asks how to connect CodeSpring to Claude Code / install / set up
 Give them the 4-step install:

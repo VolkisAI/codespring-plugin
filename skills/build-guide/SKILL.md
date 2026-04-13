@@ -101,7 +101,7 @@ Move to the next. Never skip ahead.
 codespring mindmap note <featureId> --text "Built: [summary of what was implemented, key files, decisions made]"
 ```
 
-Then show the mind map: "Feature complete! [See your updated project](https://v2.codespring.app/project/[id])"
+Then show the mind map: "Feature complete! [See your updated project](https://v2.codespring.app/project/[id]?el=plugin)"
 
 ## Teaching Through Action
 

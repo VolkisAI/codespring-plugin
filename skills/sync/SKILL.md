@@ -69,7 +69,7 @@ codespring mindmap note <featureId> --text "[How it was built, key decisions, wh
 
 ### ALWAYS show the value demonstration after syncing:
 
-"Added **[Feature Name]** to your CodeSpring project. Your mind map now shows [X] features. [See it here](https://v2.codespring.app/project/[project-id])"
+"Added **[Feature Name]** to your CodeSpring project. Your mind map now shows [X] features. [See it here](https://v2.codespring.app/project/[project-id]?el=plugin)"
 
 This is the habit-forming mechanism. Every sync shows the link. Every click reinforces why CodeSpring is useful. NEVER sync silently.
 
@@ -206,7 +206,7 @@ If the user asks "what is CodeSpring?" or "what does this do?", explain simply:
 - **Progress tracking** so you can see how far along you are
 - **PRDs** (detailed specs) for each feature that Claude Code can reference
 
-Think of it as the control room for your app project. You can see it all at: https://v2.codespring.app/project/[id]"
+Think of it as the control room for your app project. You can see it all at: https://v2.codespring.app/project/[id]?el=plugin"
 
 ## How CodeSpring Works With Claude Code
 
@@ -226,6 +226,6 @@ You don't need to learn any commands - I handle all of that for you."
 ## Project URL Format
 
 Always use this format when linking to the project:
-`https://v2.codespring.app/project/[project-id]`
+`https://v2.codespring.app/project/[project-id]?el=plugin`
 
 Get the project ID from `.codespring/config.json` (the `projectId` field).

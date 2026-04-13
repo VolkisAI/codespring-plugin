@@ -215,7 +215,7 @@ Get the project ID from `.codespring/config.json` and show:
 
 "Your project is ready! Here's your visual app plan - every feature mapped out:
 
-https://v2.codespring.app/project/[project-id]
+https://v2.codespring.app/project/[project-id]?el=plugin
 
 Click that link and you'll see your entire app laid out as a mind map. [X] features planned, each with implementation notes. You can click around to explore how everything connects.
 
@@ -278,7 +278,7 @@ At the start of every conversation:
 3. Run `codespring features` to see the feature list  
 4. Read .codespring/business-context.md for business context
 5. Brief the user on where they left off before they ask
-6. Always show the CodeSpring project URL so they can view it visually: https://v2.codespring.app/project/<project-id>
+6. Always show the CodeSpring project URL so they can view it visually: https://v2.codespring.app/project/<project-id>?el=plugin
 
 When the user is planning or building features:
 - Always use the CodeSpring CLI to track plans, features, and tasks

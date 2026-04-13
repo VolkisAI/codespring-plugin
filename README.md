@@ -43,7 +43,7 @@ The plugin auto-activates. It will:
 1. Ask you about your business (takes 3 minutes)
 2. Set up your CodeSpring account and project
 3. Create a visual mind map of your app plan
-4. Give you a link to see it all: https://v2.codespring.app/project/[your-project-id]
+4. Give you a link to see it all: https://v2.codespring.app/project/[your-project-id]?el=plugin
 
 ## How It Works
 

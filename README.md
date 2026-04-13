@@ -13,13 +13,19 @@ Your AI business co-pilot. This plugin makes Claude Code remember your business,
 
 ## Installation
 
-### Step 1: Open Claude Code
+### Step 1: Create your free CodeSpring account
 
-Open your terminal and type `claude` to start Claude Code. If you don't have Claude Code yet, download it from https://claude.ai/download
+Go to https://app.codespring.app/login?el=plugin and create your free account. This is where your app plans will live. Takes 30 seconds.
 
-### Step 2: Install the plugin
+### Step 2: Open Claude Code
 
-Paste these commands one at a time inside Claude Code:
+Open your terminal (Mac: search "Terminal" in Spotlight, Windows: search "Command Prompt") and type `claude` to start Claude Code.
+
+If you don't have Claude Code yet, download it from https://claude.ai/download
+
+### Step 3: Install the plugin
+
+Paste these commands one at a time into the Claude Code chat box (where you type messages to Claude - NOT your regular terminal):
 
 ```
 /plugin marketplace add VolkisAI/codespring-plugin
@@ -33,7 +39,7 @@ Paste these commands one at a time inside Claude Code:
 /reload-plugins
 ```
 
-### Step 3: Start the onboarding
+### Step 4: Start the onboarding
 
 Type this to get started:
 
@@ -42,8 +48,8 @@ Type this to get started:
 ```
 
 The plugin will:
-1. Install the CodeSpring CLI (you'll need to run one command it gives you)
-2. Help you create a free CodeSpring account
+1. Install the CodeSpring CLI (it'll ask you to paste one command)
+2. Connect your CodeSpring account
 3. Ask about your business (takes 3 minutes)
 4. Create a visual mind map of your app plan
 4. Give you a link to see it all: https://v2.codespring.app/project/[your-project-id]?el=plugin

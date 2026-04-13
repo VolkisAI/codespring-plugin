@@ -54,7 +54,7 @@ Last updated: April 2026
 
 ## Important URLs
 
-- Signup / Login: https://app.codespring.app/login
+- Signup / Login: https://app.codespring.app/login?el=plugin
 - Project view: https://v2.codespring.app/project/<project-id>?el=plugin
 - Pricing page: https://codespring.app/pricing
 - Boilerplate: https://github.com/VolkisAI/codespring-boilerplate
@@ -94,7 +94,7 @@ codespring init
 
 IMPORTANT: Step 1 sometimes needs `sudo` on Mac/Linux. If the user gets a permissions error, tell them to run: `! sudo npm i -g @codespring-app/cli`
 
-IMPORTANT: Step 2 opens a browser window. The user needs to log in or create an account at https://app.codespring.app/login first if they don't have one.
+IMPORTANT: Step 2 opens a browser window. The user needs to log in or create an account at https://app.codespring.app/login?el=plugin first if they don't have one.
 
 IMPORTANT: Step 3 installs the CodeSpring skill files so Claude Code knows how to use the CLI in future sessions.
 

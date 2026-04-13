@@ -73,7 +73,7 @@ The plugin auto-activates. It will:
 | Codebase Import | - | - | Yes | Yes |
 | Team Workspace | - | - | - | Yes |
 
-Sign up at https://app.codespring.app/login
+Sign up at https://app.codespring.app/login?el=plugin
 
 ## Support
 

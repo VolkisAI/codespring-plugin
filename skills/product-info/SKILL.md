@@ -53,7 +53,7 @@ Give them the 4-step install:
 3. `npx skills add CodeSpringApp/codespring-skills` (installs Claude Code skills)
 4. `codespring init` (links to a project)
 
-If they don't have an account yet, send them to https://app.codespring.app/login first.
+If they don't have an account yet, send them to https://app.codespring.app/login?el=plugin first.
 
 ### User asks about pricing
 Give them the straightforward breakdown:

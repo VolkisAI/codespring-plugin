@@ -75,7 +75,7 @@ The user has never logged in. They probably don't have a CodeSpring account yet.
 
 "You'll need a CodeSpring account to save your projects. It's free to create one - takes 30 seconds.
 
-1. Go to https://app.codespring.app/login and create your free account
+1. Go to https://app.codespring.app/login?el=plugin and create your free account
 2. Once you've signed up, come back here and run: `! codespring auth login`
 3. That'll open your browser to connect your account
 

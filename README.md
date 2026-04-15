@@ -32,7 +32,7 @@ Paste these commands one at a time into the Claude Code chat box (where you type
 ```
 
 ```
-/plugin install codespring
+/plugin install codespring@codespring-plugins
 ```
 
 ```

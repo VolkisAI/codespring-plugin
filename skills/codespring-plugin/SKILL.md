@@ -57,8 +57,10 @@ codespring-plugin/
 Events are tracked via PostHog capture API (EU instance).
 - **Project API key**: phc_jRnh77duwOoaku2h8xltfsL3OLUibXCiFbvGu2IyklL
 - **Host**: https://eu.i.posthog.com
-- **Distinct ID**: System username ($(whoami))
-- **Property**: source: "plugin"
+- **Distinct ID**: Persistent UUID stored at `~/.codespring/analytics_id` (generated on first run, survives across sessions)
+- **Properties on every event**: source: "plugin", plugin_version: "1.0.0", $os, $os_version
+- **User properties set via $set**: onboarding_started, interview_completed, onboarding_completed, team_size, business_type, last_session_date
+- **User properties set via $set_once**: first_seen_date, initial_plugin_version, acquisition_source
 
 ### Events Tracked
 
